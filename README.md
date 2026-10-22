@@ -29,20 +29,17 @@ GitHub Pages serves the files in this repository as a public website. It fits th
 
 ## Reproducible deployment with GitHub Pages
 
-1. Create a public GitHub repository named campus-connect-shreyas (or choose another name).
-2. Add index.html and README.md to the repository's top level. Keep index.html at the top level.
-3. In the repository, open Settings → Pages.
-4. Under Build and deployment, choose Deploy from a branch.
-5. Select the main branch and the / (root) folder, then choose Save.
-6. Wait for deployment to finish. GitHub displays the public address in Settings → Pages. It normally looks like https://YOUR-USERNAME.github.io/campus-connect-shreyas/.
-7. Open that address and confirm the page loads. For errors, check the repository's Actions tab and confirm that Pages uses the branch and folder containing index.html.
-
-For a user site repository named YOUR-USERNAME.github.io, the URL is https://YOUR-USERNAME.github.io/.
+1. Create a public GitHub repository and add index.html at the top level.
+2. Open Settings → Pages.
+3. Under Build and deployment, choose Deploy from a branch.
+4. Select the main branch and / (root), then choose Save.
+5. Wait for the Pages deployment to finish. GitHub displays the published address in Settings → Pages.
+6. Open the address and check the page. For errors, check the repository's Actions tab and confirm Pages uses the branch and folder containing index.html.
 
 ## Setup and configuration
 
-There are no secrets or environment variables. GitHub Pages serves the static files from the selected branch and folder. To update the page, edit index.html and commit the change to main; Pages publishes it after deployment completes.
+There are no secrets or environment variables. GitHub Pages serves static files from the selected branch and folder. To update the page, edit index.html and commit the change to main; Pages publishes it after deployment completes.
 
 ## Live website
 
-Deployment is not yet enabled. After publishing, replace this line with the verified URL shown under Settings → Pages.
+https://raxdev6.github.io/campus-connect-shreyas/
